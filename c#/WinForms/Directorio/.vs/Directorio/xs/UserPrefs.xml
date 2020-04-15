@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{79390D03-3341-44F9-AFB4-76F6052E79EA}|Default">
+  <MonoDevelop.Ide.ItemProperties.Directorio PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Directorio/MainWindow.cs">
+    <Files>
+      <File FileName="Directorio/Program.cs" Line="13" Column="31" />
+      <File FileName="Directorio/MainWindow.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Directorio" expanded="True">
+            <Node name="Directorio" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

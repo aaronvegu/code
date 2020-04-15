@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/bin/Debug/netcoreapp3.1/CalculoEntero
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/bin/Debug/netcoreapp3.1/CalculoEntero.deps.json
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/bin/Debug/netcoreapp3.1/CalculoEntero.runtimeconfig.json
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/bin/Debug/netcoreapp3.1/CalculoEntero.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/bin/Debug/netcoreapp3.1/CalculoEntero.dll
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/bin/Debug/netcoreapp3.1/CalculoEntero.pdb
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/obj/Debug/netcoreapp3.1/CalculoEntero.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/obj/Debug/netcoreapp3.1/CalculoEntero.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/obj/Debug/netcoreapp3.1/CalculoEntero.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/obj/Debug/netcoreapp3.1/CalculoEntero.dll
+/Users/aaronvegu/code/c#/CalculoEntero/CalculoEntero/obj/Debug/netcoreapp3.1/CalculoEntero.pdb

@@ -1,0 +1,231 @@
+$dark: #2D2E40;
+$red: #D91E2E;
+$darkBlue: #295BF2;
+$lightBlue: #3B86FF;
+$green: #317312;
+$yellow: #D9C14A;
+$light: #F8F8FA;
+$grey: #0000001A 0% 0%;
+$lightDark: #4D4F5C;
+$sans-font: 'Source Sans Pro', sans-serif;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $sans-font;
+    
+}
+
+.img-bg {
+    background: url(../img/login-bg.jpg) no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.center-form {
+    display: flex;
+    justify-content: center;
+}
+
+.log-input-dsg {
+    border: none;
+    border-bottom: 1px solid gray;
+    opacity: 50%;
+}
+
+.log-container {
+    padding: 30px 40px;
+    margin-top: 20vh;
+}
+
+.log-btn {
+    background: #048ABF;
+    opacity: 1;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.wd-40 {
+    max-width: 400px;
+}
+
+.bar {
+    height: 50px;
+}
+
+.menu-c {
+    color: $lightBlue;
+    cursor: pointer;
+}
+
+.sb-font {
+    font-family: $sans-font;
+    font-size: 18px;
+    text-align: center;
+    opacity: 50%;
+    font-weight: bold;
+    padding: 20px;
+    background: #E4E4E4;
+    color: #2D2F40;
+}
+
+.sb-menu {
+    position: absolute;
+    background: $light;
+    width: 200px;
+    height: 100%;
+
+    ul {
+        list-style: none;
+
+        li {
+            background: $grey;
+            padding: 10px;
+            color: #fff;
+            display: block;
+            outline: 2px solid $light;
+            transition: all 0.5s ease-in-out;
+
+            &.active {
+                background: $lightBlue;
+                color: $light;
+                border-left: 3px solid $red;
+                transition: 0.3s;
+
+                .fas {
+                    color: $light;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .fas {
+                color: $lightBlue;
+                font-size: 1.2rem;
+                margin-right: 0.8rem;
+            }
+
+        }
+
+        li:hover {
+            background: $lightBlue;
+            color: $light;
+            border-left: 3px solid $red;
+            transition: 0.3s;
+
+            .fas {
+                color: $light;
+            }
+        }
+
+    }
+
+    
+}
+
+.contenido {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: $light;
+    padding: 30px;
+    transition: all 0.3s;
+}
+
+.open {
+    transform: translateX(200px);
+}
+
+.card {
+    margin: 20px;
+}
+
+.stats-font {
+    font-weight: bold;
+    letter-spacing: 1.3px;
+
+    &:hover {
+        color: $lightBlue;
+        transition: .5s ease-in-out;
+    }
+}
+
+.left-cards {
+    h2 {
+        font-size: 27px;
+        font-weight: 200;
+        color: $lightDark;
+    }
+
+    i {
+        vertical-align: -10px;
+
+        &.fa-exclamation-triangle {
+            color: $red;
+        }
+
+        &.fa-exclamation {
+            color: $yellow;
+        }
+        
+        &.fa-check-circle {
+            color: $green;
+        }
+    }
+
+    .card {
+        padding: 0px;
+
+        .card-body {
+            padding-bottom: 0px;
+        }
+        .num-card {
+            font-family: $sans-font;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .text-card {
+            font-family: $sans-font;
+            font-weight: bold;
+            font-size: 14px;
+            color: $lightDark;
+            letter-spacing: 1px;
+        }
+        .urgente {
+            color: $red;
+        }
+        .alerta {
+            color: $yellow;
+        }
+        .estable {
+            color: $green;
+        }
+    }
+}
+
+#sb-exit {
+    position: absolute;
+    width: 200px;
+    bottom: 15px;
+}
+
+#sub-log {
+    font-family: $sans-font;
+    font-size: 18px;
+    text-align: center;
+    opacity: 50%;
+}
+
+#principal-log {
+    font-family: $sans-font;
+    font-size: 37px;
+    letter-spacing: 5.8px;
+    text-align: center;
+}

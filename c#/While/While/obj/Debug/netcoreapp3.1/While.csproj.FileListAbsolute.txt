@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/While/While/bin/Debug/netcoreapp3.1/While
+/Users/aaronvegu/code/c#/While/While/bin/Debug/netcoreapp3.1/While.deps.json
+/Users/aaronvegu/code/c#/While/While/bin/Debug/netcoreapp3.1/While.runtimeconfig.json
+/Users/aaronvegu/code/c#/While/While/bin/Debug/netcoreapp3.1/While.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/While/While/bin/Debug/netcoreapp3.1/While.dll
+/Users/aaronvegu/code/c#/While/While/bin/Debug/netcoreapp3.1/While.pdb
+/Users/aaronvegu/code/c#/While/While/obj/Debug/netcoreapp3.1/While.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/While/While/obj/Debug/netcoreapp3.1/While.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/While/While/obj/Debug/netcoreapp3.1/While.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/While/While/obj/Debug/netcoreapp3.1/While.dll
+/Users/aaronvegu/code/c#/While/While/obj/Debug/netcoreapp3.1/While.pdb

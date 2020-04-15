@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/Libreria/Libreria/bin/Debug/netcoreapp3.1/Libreria
+/Users/aaronvegu/code/c#/Libreria/Libreria/bin/Debug/netcoreapp3.1/Libreria.deps.json
+/Users/aaronvegu/code/c#/Libreria/Libreria/bin/Debug/netcoreapp3.1/Libreria.runtimeconfig.json
+/Users/aaronvegu/code/c#/Libreria/Libreria/bin/Debug/netcoreapp3.1/Libreria.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/Libreria/Libreria/bin/Debug/netcoreapp3.1/Libreria.dll
+/Users/aaronvegu/code/c#/Libreria/Libreria/bin/Debug/netcoreapp3.1/Libreria.pdb
+/Users/aaronvegu/code/c#/Libreria/Libreria/obj/Debug/netcoreapp3.1/Libreria.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/Libreria/Libreria/obj/Debug/netcoreapp3.1/Libreria.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/Libreria/Libreria/obj/Debug/netcoreapp3.1/Libreria.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/Libreria/Libreria/obj/Debug/netcoreapp3.1/Libreria.dll
+/Users/aaronvegu/code/c#/Libreria/Libreria/obj/Debug/netcoreapp3.1/Libreria.pdb

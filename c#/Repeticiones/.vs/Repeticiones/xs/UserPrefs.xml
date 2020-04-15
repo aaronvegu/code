@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{4A2C1378-516F-403A-8344-5CD6D24B87F5}|Default">
+  <MonoDevelop.Ide.ItemProperties.Repeticiones PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Repeticiones" expanded="True">
+            <Node name="Repeticiones" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Lista.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

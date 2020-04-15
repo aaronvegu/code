@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/bin/Debug/netcoreapp3.1/Repeticiones
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/bin/Debug/netcoreapp3.1/Repeticiones.deps.json
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/bin/Debug/netcoreapp3.1/Repeticiones.runtimeconfig.json
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/bin/Debug/netcoreapp3.1/Repeticiones.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/bin/Debug/netcoreapp3.1/Repeticiones.dll
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/bin/Debug/netcoreapp3.1/Repeticiones.pdb
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/obj/Debug/netcoreapp3.1/Repeticiones.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/obj/Debug/netcoreapp3.1/Repeticiones.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/obj/Debug/netcoreapp3.1/Repeticiones.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/obj/Debug/netcoreapp3.1/Repeticiones.dll
+/Users/aaronvegu/code/c#/Repeticiones/Repeticiones/obj/Debug/netcoreapp3.1/Repeticiones.pdb

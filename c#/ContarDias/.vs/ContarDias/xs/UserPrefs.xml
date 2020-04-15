@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{C5DDCF98-3691-4A81-B868-4DA3E9FF8AE9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContarDias/Program.cs">
+    <Files>
+      <File FileName="ContarDias/Program.cs" Line="24" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ContarDias" expanded="True">
+            <Node name="ContarDias" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ContarDias PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

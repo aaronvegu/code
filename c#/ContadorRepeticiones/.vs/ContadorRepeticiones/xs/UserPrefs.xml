@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{CA73B6EA-2523-431B-886D-045CF1AD111B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContadorRepeticiones/Program.cs">
+    <Files>
+      <File FileName="ContadorRepeticiones/Program.cs" Line="40" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ContadorRepeticiones" expanded="True">
+            <Node name="ContadorRepeticiones" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ContadorRepeticiones PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

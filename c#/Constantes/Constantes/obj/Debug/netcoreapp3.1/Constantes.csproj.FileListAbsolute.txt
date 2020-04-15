@@ -1,0 +1,11 @@
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/bin/Debug/netcoreapp3.1/Constantes
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/bin/Debug/netcoreapp3.1/Constantes.deps.json
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/bin/Debug/netcoreapp3.1/Constantes.runtimeconfig.json
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/bin/Debug/netcoreapp3.1/Constantes.runtimeconfig.dev.json
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/bin/Debug/netcoreapp3.1/Constantes.dll
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/bin/Debug/netcoreapp3.1/Constantes.pdb
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/obj/Debug/netcoreapp3.1/Constantes.csprojAssemblyReference.cache
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/obj/Debug/netcoreapp3.1/Constantes.AssemblyInfoInputs.cache
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/obj/Debug/netcoreapp3.1/Constantes.AssemblyInfo.cs
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/obj/Debug/netcoreapp3.1/Constantes.dll
+/Users/aaronvegu/visual-studio-projects/Constantes/Constantes/obj/Debug/netcoreapp3.1/Constantes.pdb

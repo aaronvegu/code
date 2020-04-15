@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/bin/Debug/netcoreapp3.1/ParImpar
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/bin/Debug/netcoreapp3.1/ParImpar.deps.json
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/bin/Debug/netcoreapp3.1/ParImpar.runtimeconfig.json
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/bin/Debug/netcoreapp3.1/ParImpar.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/bin/Debug/netcoreapp3.1/ParImpar.dll
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/bin/Debug/netcoreapp3.1/ParImpar.pdb
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/obj/Debug/netcoreapp3.1/ParImpar.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/obj/Debug/netcoreapp3.1/ParImpar.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/obj/Debug/netcoreapp3.1/ParImpar.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/obj/Debug/netcoreapp3.1/ParImpar.dll
+/Users/aaronvegu/code/c#/ParImpar/ParImpar/obj/Debug/netcoreapp3.1/ParImpar.pdb

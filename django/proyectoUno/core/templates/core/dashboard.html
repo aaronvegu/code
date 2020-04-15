@@ -1,0 +1,149 @@
+{% extends 'core/template.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="container-fliud">
+    <div class="sb-menu">
+        <p class="sb-font">Monitoreo AMCO</p>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i> Tablero</a></li>
+            <li class="active"><a href="{% url 'dashboard' %}"><i class="fas fa-chart-bar"></i> Dashboard</a></li>
+            <li><a href="#"><i class="fas fa-cog"></i> Configuración</a></li>
+            <li id="sb-exit"><a href="{% url 'login' %}"><i class="fas fa-sign-out-alt"></i> Salir</a></li>
+        </ul>
+    </div>
+
+    <div class="row">
+        <nav class="contenido">
+            <header class="col-12">
+                <i class="fas fa-bars fa-2x menu-c"></i>
+            </header>
+            <div class="row">
+                <section class="col-12 col-md-8 left-cards">
+                    <div class="row">
+                        <div class="col-sm-3 card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <i class="fas fa-exclamation-triangle fa-2x"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="num-card urgente">5</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-card">Productos Urgentes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <i class="fas fa-exclamation fa-2x"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="num-card alerta">7</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-card">Productos En Alerta</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <i class="fas fa-check-circle fa-2x"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="num-card estable">56</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text-card">Productos Estables</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-10 card">
+                            <div class="row">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-8 col-12">
+                                            <h2>Productos con Mayor Delay</h2>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <select class="custom-select" name="mes" id="mes">
+                                                <option selected>Selec. Mes</option>
+                                                <option value="1">Enero</option>
+                                                <option value="2">Febrero</option>
+                                                <option value="3">Marzo</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="stats-font">Promedio: 17</p>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-12 col-md-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <div class="col-12">
+                                        <h2>Total Por Comprar</h2>
+                                    </div>
+                                    <div class="col-12">
+                                        <span class="num-compras">76</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Articulos en Total</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <p>Para conocer a detalle las compras necesarias, genere un reporte:</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary">Generar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <div class="col-12">
+                                        <p>Reporte a Detalle</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="periodo-reporte">Seleccionar Periodo</label>
+                                    </div>
+                                    <div class="col-12 col-md-5">
+                                        <input type="date" name="periodo-reporte" id="periodo-reporte">
+                                        <button class="btn btn-primary">Generar</button>
+                                    </div>
+                                    <div class="col-12 col-md-5">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+{% load static %}
+<script src="{% static 'core/js/scripts.js' %}"></script>
+{% endblock %}

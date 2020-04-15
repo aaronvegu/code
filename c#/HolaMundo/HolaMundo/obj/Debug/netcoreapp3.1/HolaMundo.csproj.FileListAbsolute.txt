@@ -1,0 +1,11 @@
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/bin/Debug/netcoreapp3.1/HolaMundo
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/bin/Debug/netcoreapp3.1/HolaMundo.deps.json
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/bin/Debug/netcoreapp3.1/HolaMundo.runtimeconfig.json
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/bin/Debug/netcoreapp3.1/HolaMundo.runtimeconfig.dev.json
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/bin/Debug/netcoreapp3.1/HolaMundo.dll
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/bin/Debug/netcoreapp3.1/HolaMundo.pdb
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/obj/Debug/netcoreapp3.1/HolaMundo.csprojAssemblyReference.cache
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/obj/Debug/netcoreapp3.1/HolaMundo.AssemblyInfoInputs.cache
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/obj/Debug/netcoreapp3.1/HolaMundo.AssemblyInfo.cs
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/obj/Debug/netcoreapp3.1/HolaMundo.dll
+/Users/aaronvegu/visual-studio-projects/HolaMundo/HolaMundo/obj/Debug/netcoreapp3.1/HolaMundo.pdb

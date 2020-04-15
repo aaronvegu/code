@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/colecciones/colecciones/bin/Debug/netcoreapp3.1/colecciones
+/Users/aaronvegu/code/c#/colecciones/colecciones/bin/Debug/netcoreapp3.1/colecciones.deps.json
+/Users/aaronvegu/code/c#/colecciones/colecciones/bin/Debug/netcoreapp3.1/colecciones.runtimeconfig.json
+/Users/aaronvegu/code/c#/colecciones/colecciones/bin/Debug/netcoreapp3.1/colecciones.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/colecciones/colecciones/bin/Debug/netcoreapp3.1/colecciones.dll
+/Users/aaronvegu/code/c#/colecciones/colecciones/bin/Debug/netcoreapp3.1/colecciones.pdb
+/Users/aaronvegu/code/c#/colecciones/colecciones/obj/Debug/netcoreapp3.1/colecciones.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/colecciones/colecciones/obj/Debug/netcoreapp3.1/colecciones.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/colecciones/colecciones/obj/Debug/netcoreapp3.1/colecciones.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/colecciones/colecciones/obj/Debug/netcoreapp3.1/colecciones.dll
+/Users/aaronvegu/code/c#/colecciones/colecciones/obj/Debug/netcoreapp3.1/colecciones.pdb

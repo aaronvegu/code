@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{76B148E5-8BED-C79B-5FC7-66A426DD5BD4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ReplicarZombies.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Directions.cs" Line="24" Column="1" />
+      <File FileName="Assets/Scripts/MovimientoPantalla.cs" Line="33" Column="51" />
+      <File FileName="Assets/Scripts/MovimientoAnimado.cs" />
+      <File FileName="Assets/Scripts/MovimientoZombi.cs" Line="41" Column="33" />
+      <File FileName="Assets/Scripts/ReplicarZombies.cs" Line="26" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="sombis" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ReplicarZombies.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="172686c3-edb2-4358-af52-b13c9d822a1f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

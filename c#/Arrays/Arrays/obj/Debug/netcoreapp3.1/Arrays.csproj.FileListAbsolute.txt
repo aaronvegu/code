@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/Arrays/Arrays/bin/Debug/netcoreapp3.1/Arrays
+/Users/aaronvegu/code/c#/Arrays/Arrays/bin/Debug/netcoreapp3.1/Arrays.deps.json
+/Users/aaronvegu/code/c#/Arrays/Arrays/bin/Debug/netcoreapp3.1/Arrays.runtimeconfig.json
+/Users/aaronvegu/code/c#/Arrays/Arrays/bin/Debug/netcoreapp3.1/Arrays.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/Arrays/Arrays/bin/Debug/netcoreapp3.1/Arrays.dll
+/Users/aaronvegu/code/c#/Arrays/Arrays/bin/Debug/netcoreapp3.1/Arrays.pdb
+/Users/aaronvegu/code/c#/Arrays/Arrays/obj/Debug/netcoreapp3.1/Arrays.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/Arrays/Arrays/obj/Debug/netcoreapp3.1/Arrays.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/Arrays/Arrays/obj/Debug/netcoreapp3.1/Arrays.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/Arrays/Arrays/obj/Debug/netcoreapp3.1/Arrays.dll
+/Users/aaronvegu/code/c#/Arrays/Arrays/obj/Debug/netcoreapp3.1/Arrays.pdb

@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/bin/Debug/netcoreapp3.1/ContarDias
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/bin/Debug/netcoreapp3.1/ContarDias.deps.json
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/bin/Debug/netcoreapp3.1/ContarDias.runtimeconfig.json
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/bin/Debug/netcoreapp3.1/ContarDias.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/bin/Debug/netcoreapp3.1/ContarDias.dll
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/bin/Debug/netcoreapp3.1/ContarDias.pdb
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/obj/Debug/netcoreapp3.1/ContarDias.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/obj/Debug/netcoreapp3.1/ContarDias.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/obj/Debug/netcoreapp3.1/ContarDias.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/obj/Debug/netcoreapp3.1/ContarDias.dll
+/Users/aaronvegu/code/c#/ContarDias/ContarDias/obj/Debug/netcoreapp3.1/ContarDias.pdb

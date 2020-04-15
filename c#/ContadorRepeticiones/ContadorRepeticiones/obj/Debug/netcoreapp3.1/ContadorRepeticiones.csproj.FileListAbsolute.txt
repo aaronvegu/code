@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/bin/Debug/netcoreapp3.1/ContadorRepeticiones
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/bin/Debug/netcoreapp3.1/ContadorRepeticiones.deps.json
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/bin/Debug/netcoreapp3.1/ContadorRepeticiones.runtimeconfig.json
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/bin/Debug/netcoreapp3.1/ContadorRepeticiones.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/bin/Debug/netcoreapp3.1/ContadorRepeticiones.dll
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/bin/Debug/netcoreapp3.1/ContadorRepeticiones.pdb
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/obj/Debug/netcoreapp3.1/ContadorRepeticiones.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/obj/Debug/netcoreapp3.1/ContadorRepeticiones.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/obj/Debug/netcoreapp3.1/ContadorRepeticiones.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/obj/Debug/netcoreapp3.1/ContadorRepeticiones.dll
+/Users/aaronvegu/code/c#/ContadorRepeticiones/ContadorRepeticiones/obj/Debug/netcoreapp3.1/ContadorRepeticiones.pdb

@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/bin/Debug/netcoreapp3.1/OperadorIf
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/bin/Debug/netcoreapp3.1/OperadorIf.deps.json
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/bin/Debug/netcoreapp3.1/OperadorIf.runtimeconfig.json
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/bin/Debug/netcoreapp3.1/OperadorIf.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/bin/Debug/netcoreapp3.1/OperadorIf.dll
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/bin/Debug/netcoreapp3.1/OperadorIf.pdb
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/obj/Debug/netcoreapp3.1/OperadorIf.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/obj/Debug/netcoreapp3.1/OperadorIf.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/obj/Debug/netcoreapp3.1/OperadorIf.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/obj/Debug/netcoreapp3.1/OperadorIf.dll
+/Users/aaronvegu/code/c#/OperadorIf/OperadorIf/obj/Debug/netcoreapp3.1/OperadorIf.pdb

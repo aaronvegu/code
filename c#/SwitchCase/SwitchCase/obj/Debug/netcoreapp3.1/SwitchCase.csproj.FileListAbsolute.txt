@@ -1,0 +1,11 @@
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/bin/Debug/netcoreapp3.1/SwitchCase
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/bin/Debug/netcoreapp3.1/SwitchCase.deps.json
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/bin/Debug/netcoreapp3.1/SwitchCase.runtimeconfig.json
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/bin/Debug/netcoreapp3.1/SwitchCase.runtimeconfig.dev.json
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/bin/Debug/netcoreapp3.1/SwitchCase.dll
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/bin/Debug/netcoreapp3.1/SwitchCase.pdb
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/obj/Debug/netcoreapp3.1/SwitchCase.csprojAssemblyReference.cache
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/obj/Debug/netcoreapp3.1/SwitchCase.AssemblyInfoInputs.cache
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/obj/Debug/netcoreapp3.1/SwitchCase.AssemblyInfo.cs
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/obj/Debug/netcoreapp3.1/SwitchCase.dll
+/Users/aaronvegu/Projects/SwitchCase/SwitchCase/obj/Debug/netcoreapp3.1/SwitchCase.pdb

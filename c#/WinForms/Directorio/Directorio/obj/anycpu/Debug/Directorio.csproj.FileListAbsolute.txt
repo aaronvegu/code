@@ -1,0 +1,6 @@
+/Users/aaronvegu/code/c#/WinForms/Directorio/Directorio/bin/Debug/Directorio.exe
+/Users/aaronvegu/code/c#/WinForms/Directorio/Directorio/bin/Debug/Directorio.pdb
+/Users/aaronvegu/code/c#/WinForms/Directorio/Directorio/obj/anycpu/Debug/Directorio.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/WinForms/Directorio/Directorio/obj/anycpu/Debug/Directorio.exe
+/Users/aaronvegu/code/c#/WinForms/Directorio/Directorio/obj/anycpu/Debug/Directorio.pdb
+/Users/aaronvegu/code/c#/WinForms/Directorio/Directorio/obj/anycpu/Debug/Directorio.csproj.CoreCompileInputs.cache

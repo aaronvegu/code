@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/Strings/Strings/bin/Debug/netcoreapp3.1/Strings
+/Users/aaronvegu/code/c#/Strings/Strings/bin/Debug/netcoreapp3.1/Strings.deps.json
+/Users/aaronvegu/code/c#/Strings/Strings/bin/Debug/netcoreapp3.1/Strings.runtimeconfig.json
+/Users/aaronvegu/code/c#/Strings/Strings/bin/Debug/netcoreapp3.1/Strings.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/Strings/Strings/bin/Debug/netcoreapp3.1/Strings.dll
+/Users/aaronvegu/code/c#/Strings/Strings/bin/Debug/netcoreapp3.1/Strings.pdb
+/Users/aaronvegu/code/c#/Strings/Strings/obj/Debug/netcoreapp3.1/Strings.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/Strings/Strings/obj/Debug/netcoreapp3.1/Strings.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/Strings/Strings/obj/Debug/netcoreapp3.1/Strings.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/Strings/Strings/obj/Debug/netcoreapp3.1/Strings.dll
+/Users/aaronvegu/code/c#/Strings/Strings/obj/Debug/netcoreapp3.1/Strings.pdb

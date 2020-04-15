@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{97535BD5-0E29-4D9C-B9FB-18CE9A1ED5F6}|Default">
+  <MonoDevelop.Ide.ItemProperties.CalculoEntero PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CalculoEntero/Program.cs">
+    <Files>
+      <File FileName="CalculoEntero/Program.cs" Line="19" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CalculoEntero" expanded="True">
+            <Node name="CalculoEntero" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

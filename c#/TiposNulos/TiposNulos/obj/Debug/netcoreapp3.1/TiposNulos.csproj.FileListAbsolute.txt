@@ -1,0 +1,11 @@
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/bin/Debug/netcoreapp3.1/TiposNulos
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/bin/Debug/netcoreapp3.1/TiposNulos.deps.json
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/bin/Debug/netcoreapp3.1/TiposNulos.runtimeconfig.json
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/bin/Debug/netcoreapp3.1/TiposNulos.runtimeconfig.dev.json
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/bin/Debug/netcoreapp3.1/TiposNulos.dll
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/bin/Debug/netcoreapp3.1/TiposNulos.pdb
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/obj/Debug/netcoreapp3.1/TiposNulos.csprojAssemblyReference.cache
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/obj/Debug/netcoreapp3.1/TiposNulos.AssemblyInfoInputs.cache
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/obj/Debug/netcoreapp3.1/TiposNulos.AssemblyInfo.cs
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/obj/Debug/netcoreapp3.1/TiposNulos.dll
+/Users/aaronvegu/code/c#/TiposNulos/TiposNulos/obj/Debug/netcoreapp3.1/TiposNulos.pdb

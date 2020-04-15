@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{92535CF0-A7CB-49F6-A863-B064DAC25D65}|Default">
+  <MonoDevelop.Ide.ItemProperties.TiposNulos PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TiposNulos/Program.cs">
+    <Files>
+      <File FileName="TiposNulos/Program.cs" Line="16" Column="63" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TiposNulos" expanded="True">
+            <Node name="TiposNulos" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
