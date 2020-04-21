@@ -16,9 +16,10 @@ class Persona  // Clase
     }
 
     // Metodos
-    Saludar() // No es necesario utilizar la palabra function
+    Saludar(fn) // No es necesario utilizar la palabra function
     {
         console.log(`Hola, mi nombre es ${this.nombre} ${this.apellido}`);
+        if(fn) fn(this.nombre, this.apellido, false); // Funcion como parametro
     }
     soyAlto() 
     {
@@ -50,9 +51,10 @@ class Persona  // Clase
          */
     }
 
-    Saludar() // Sobreescritura de Metodos
+    Saludar(fn) // Sobreescritura de Metodos
     {
         console.log(`Hola, mi nombre es ${this.nombre} ${this.apellido} y soy desarrollador`);
+        if(fn) fn(this.nombre, this.apellido, true); // Funcion como parametro
     }
     Programar() // Metodo propio de la Clase Hija Desarrollador
     {
@@ -63,6 +65,6 @@ class Persona  // Clase
  // Funciones como parametro
  function responderSaludo(nombre, apellido, esDev)
  {
-    console.log(`Buen dia, ${nombre} ${apellido}`);
     if(esDev) console.log(`Buen dia, desarrollador(a) ${nombre} ${apellido}`);
+    else console.log(`Buen dia, ${nombre} ${apellido}`);
  }
