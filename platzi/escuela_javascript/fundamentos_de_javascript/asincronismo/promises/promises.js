@@ -36,9 +36,66 @@ function onError (id)
     .catch(onerror) // Si hay un error, ejecutar onError
     // Estamos haciendo una referencia a nuestra funcion de error, y 
     // como recibe el parametro, no es necesario definirlo como tal
-
-/* Bien nuestra definicion de error podria ser por medio de una funcion local:
+/*
+ Bien nuestra definicion de error podria ser por medio de una funcion local:
     .catch(function (id) {
         console.log(`Sucedió un error al obtener el personaje ${id}`)
     })
 */
+
+/* // Promesas encadenadas
+obtenerPersonaje(1)
+    .then( personaje => { // Lo cambiamos por una Arrow Function
+        console.log(`Hola, mi nombre es ${personaje.name}`);
+        return obtenerPersonaje(2);
+    })
+    .then( personaje => { // Obtenemos el personaje del Return y usamos then
+        console.log(`Hola, mi nombre es ${personaje.name}`);
+        return obtenerPersonaje(3);
+    })
+    .then( personaje => { 
+        console.log(`Hola, mi nombre es ${personaje.name}`);
+        return obtenerPersonaje(4);
+    })
+    .then( personaje => { 
+        console.log(`Hola, mi nombre es ${personaje.name}`);
+        return obtenerPersonaje(5);
+    })
+    .then( personaje => { 
+        console.log(`Hola, mi nombre es ${personaje.name}`);
+        return obtenerPersonaje(6);
+    })
+    .then( personaje => { 
+        console.log(`Hola, mi nombre es ${personaje.name}`);
+    }) // Ya no necesitamos realizar otro callback
+    .catch(onerror) */
+
+/* // Promesas Paralelas
+
+// Creamos nuestro array de ID's
+var ids = [1, 2, 3, 4, 5, 6, 7];
+
+// Generamos un array de Promesas sobre cada ID con Map
+var promesas = ids.map(id => obtenerPersonaje(id)); // usando una arrow function
+
+// Usamos all() para ejecutar un arreglo de promesas
+Promise.all(promesas)
+    .then(personajes => console.log(personajes))
+    .catch(onerror) */
+
+// Async-Await
+async function obtenerPersonajes() // Funcion asincrona
+{
+    var ids = [1, 2, 3, 4, 5, 6, 7];
+    var promesas = ids.map(id => obtenerPersonaje(id));
+    try
+    {
+        var personajes = await Promise.all(promesas); // Esperamos la resolucion de
+        console.log(personajes);    // la promesa antes de continuar con el codigo
+    } catch(id)
+    {
+        onError(id);
+    }
+}
+
+obtenerPersonajes();
