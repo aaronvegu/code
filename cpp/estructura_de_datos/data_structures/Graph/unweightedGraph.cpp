@@ -54,8 +54,8 @@ void eliminarEdge(vector<int> list[], int vertice, int valor)
     }
     // De encontrarse la posicion:
     // Eliminamos el edge de manera bidireccional
-    list[vertice].erase(find(list, vertice, valor));
-    list[valor].erase(find(list, valor, vertice));
+    list[vertice].erase(list[vertice].begin() + find(list, vertice, valor));
+    list[valor].erase(list[valor].begin() + find(list, valor, vertice));
 }
 
 // Imprimir Edges del Grafo por Vertice
@@ -85,7 +85,13 @@ int main()
 
     imprimirGrafo(adjacencyList, v);
 
-    eliminarEdge(adjacencyList, 3, 4);
+    eliminarEdge(adjacencyList, 3, 1);
+    cout << "Se elimina Edge 3 -> 1" << endl;
+
+    eliminarEdge(adjacencyList, 1, 0);
+    cout << "Se elimina Edge 1 -> 0" << endl;
+
+    imprimirGrafo(adjacencyList, v);
 
     return 0;
 }
