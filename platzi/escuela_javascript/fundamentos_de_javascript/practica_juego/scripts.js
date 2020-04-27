@@ -14,6 +14,7 @@ class Juego
             // objeto con cada pad de colores
         this.generarSecuencia(); // Nos genera un arreglo de 10 numeros aleatorios
             // entre 0 y 3, donde cada uno representa un pad de colores
+        this.siguienteNivel();
     }
 
     /**
@@ -56,10 +57,50 @@ class Juego
     {   // Generamos un array con 10 numeros aleatorios entre 0 y 3
         this.secuencia = new Array(10).fill(0).map(n => Math.floor(Math.random() * 4));
     }
+
+    siguienteNivel()
+    {
+        this.iluminarSecuencia();
+    }
+
+    transformarNumeroAColor(numero)
+    {
+        switch(numero)
+        {
+            case 0:
+                return padCeleste;
+            case 1:
+                return padVioleta;
+            case 2:
+                return padNaranja;
+            case 3:
+                return padVerde;
+        }
+    }
+
+    iluminarSecuencia()
+    {
+        for(let i = 0; i < this.nivel; i++)
+        {
+            const color = this.transformarNumeroAColor(this.secuencia[i]);
+            this.iluminarColor();
+        }
+    }
+
+    iluminarColor(color)
+    {
+        this.colores[color].classList.add('light');
+        setTimeout(() => this.apagarColor(color), 350);
+    }
+
+    apagarColor(color)
+    {
+        this.colores[color].classList.remove('light');
+    }
 }
 
 function empezarJuego()
 {
     window.juego = new Juego(); // Solo para debuggear metemos la var juego al componente
-        // windows para poder llamarla desde la consola y ver su comportamiento
+        // window para poder llamarla desde la consola y ver su comportamiento
 }
