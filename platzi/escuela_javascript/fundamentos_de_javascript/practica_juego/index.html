@@ -4,16 +4,20 @@
   <head>
     <meta charset="utf-8">
     <title>Simon Dice</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="gameboard">
-      <div id="celeste" class="color celeste left" data-color="celeste"></div>
-      <div id="violeta" class="color violeta right" data-color="violeta"></div>
-      <div id="naranja" class="color naranja left" data-color="naranja"></div>
-      <div id="verde" class="color verde right" data-color="verde"></div>
+      <div id="celeste" class="color celeste left" data-color="padCeleste"></div>
+      <div id="violeta" class="color violeta right" data-color="padVioleta"></div>
+      <div id="naranja" class="color naranja left" data-color="padNaranja"></div>
+      <div id="verde" class="color verde right" data-color="padVerde"></div>
       <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">¡Empezar a jugar!</button>
     </div>
+    <!-- Sweet Alert CDN -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Scripts del juego -->
     <script src="scripts.js"></script>
   </body>
 </html>

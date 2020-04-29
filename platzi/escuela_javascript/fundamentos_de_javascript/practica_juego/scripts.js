@@ -6,6 +6,9 @@ const padVioleta = document.getElementById('violeta'); // superior derecho
 const padNaranja = document.getElementById('naranja'); // inferior izquierdo
 const padVerde = document.getElementById('verde'); // inferior derecho
 
+const ULTIMO_NIVEL = 2; // Ultimo nivel del juego
+
+
 class Juego
 {
     constructor() // Constructor de Juego
@@ -25,13 +28,31 @@ class Juego
      */
     inicializar()
     {
-        boton.classList.add('hide'); // Le agregamos la clase css hide al boton
+        this.elegirColor = this.elegirColor.bind(this); // Lo ligamos al objeto Juego
+        /**
+         * ^ Con esto lo que hacemos es enlazar a this.elegirColor con el contexto (this)
+         * del objeto Juego en todo momento, aun cuando cambie de contexto a, por ejemplo,
+         * Windows.
+         */
+        this.toggleBoton();
         this.nivel = 1; // Inicializamos los niveles en 1, guardados en var nivel
         this.colores = { // Guardamos los pads en un Objeto llamado colores
             padCeleste, // Si el nombre del atributo es igual al de la variable,
             padVioleta, // podemos omitir su asignacion de valor, pues JS lo agrega
             padNaranja, // automaticamente, teniendo:
             padVerde    // padCeleste: padCeleste == padCeleste
+        }
+    }
+
+    toggleBoton() // Oculta o muestra el boton segun su estado
+    {
+        if (boton.classList.contains('hide'))
+        {
+            boton.classList.remove('hide');
+        } 
+        else
+        {
+            boton.classList.add('hide');
         }
     }
 
@@ -54,13 +75,15 @@ class Juego
      * teniendo lo que queremos, numeros de entre 0 y 3, correspondientes a cada uno de los pads. 
      */
     generarSecuencia()
-    {   // Generamos un array con 10 numeros aleatorios entre 0 y 3
-        this.secuencia = new Array(10).fill(0).map(n => Math.floor(Math.random() * 4));
+    {   // Generamos un array con numeros aleatorios entre 0 y 3 dependiendo los niveles del juego
+        this.secuencia = new Array(ULTIMO_NIVEL).fill(0).map(n => Math.floor(Math.random() * 4));
     }
 
     siguienteNivel()
     {
-        this.iluminarSecuencia();
+        this.subnivel = 0; // Estamos creando un nuevo atributo para la clase sin necesidad de 
+        this.iluminarSecuencia(); // declararlo en el constructor, ahora esta presente globalmente
+        this.agregarEventoClick() // Activamos listeners para escuchar evento de eleccion de color
     }
 
     transformarNumeroAColor(numero)
@@ -68,22 +91,40 @@ class Juego
         switch(numero)
         {
             case 0:
-                return padCeleste;
+                return 'padCeleste';
             case 1:
-                return padVioleta;
+                return 'padVioleta';
             case 2:
-                return padNaranja;
+                return 'padNaranja';
             case 3:
-                return padVerde;
+                return 'padVerde';
+        }
+    }
+
+    transformarColorANumero(color)
+    {
+        switch(color)
+        {
+            case 'padCeleste':
+                return 0;
+            case 'padVioleta':
+                return 1;
+            case 'padNaranja':
+                return 2;
+            case 'padVerde':
+                return 3;
         }
     }
 
     iluminarSecuencia()
     {
-        for(let i = 0; i < this.nivel; i++)
+        for(let i = 0; i < this.nivel; i++) // Para i del for se utiliza let
         {
             const color = this.transformarNumeroAColor(this.secuencia[i]);
-            this.iluminarColor();
+            setTimeout(() => {
+                this.iluminarColor(color)
+            }, 1000 * i); // Ir iluminando
+            // conforme va avanzando la secuencia de colores
         }
     }
 
@@ -97,6 +138,68 @@ class Juego
     {
         this.colores[color].classList.remove('light');
     }
+    
+    agregarEventoClick() // Activar listeners para evento de eleccion de color
+    {
+        this.colores.padCeleste.addEventListener('click', this.elegirColor);
+        this.colores.padNaranja.addEventListener('click', this.elegirColor);
+        this.colores.padVerde.addEventListener('click', this.elegirColor);
+        this.colores.padVioleta.addEventListener('click', this.elegirColor);
+    }
+
+    eliminarEventoClick() // Desactivar listeners para evento de eleccion de color
+    {
+        this.colores.padCeleste.removeEventListener('click', this.elegirColor.bind(this));
+        this.colores.padNaranja.removeEventListener('click', this.elegirColor.bind(this));
+        this.colores.padVerde.removeEventListener('click', this.elegirColor.bind(this));
+        this.colores.padVioleta.removeEventListener('click', this.elegirColor.bind(this));
+    }
+
+    gameWinner()
+    {
+        swal('Simon Dice', '¡Felicidades, has ganado el juego!', 'success') // Devuelve una Promise
+            .then(() => this.inicializar())
+    }
+
+    gameOver()
+    {
+        swal('Simon Dice', 'Lo lamentamos, perdiste :(', 'error') // Devuelve una Promise
+            .then(() => {
+                this.eliminarEventoClick();
+                this.inicializar();
+            })
+    }
+
+    elegirColor(ev) // ev es el metodo llamado cuando agregagamos listeners de eventos
+    {
+        //console.log(ev); // Para observar el objeto del evento
+        const nombreColor = ev.target.dataset.color;
+        const numeroColor = this.transformarColorANumero(nombreColor);
+        this.iluminarColor(nombreColor);
+        if(numeroColor === this.secuencia[this.subnivel]) // Si acierta el color:
+        {
+            this.subnivel++;
+            if(this.subnivel === this.nivel)
+            {
+                this.nivel++;
+                this.eliminarEventoClick(); // Desactivamos listeners para eventos de color
+                if(this.nivel === (ULTIMO_NIVEL + 1))
+                {
+                    this.gameWinner();
+                }
+                else
+                {
+                    setTimeout(() => this.siguienteNivel(), 1000); // Agregamos un delay para
+                    // cambiar de nivel cuando lo pasamos correctamente
+                }
+            }
+        }
+        else // De no haber acertado la secuencia de colores:
+        {
+            this.gameOver();
+        }
+    }
+
 }
 
 function empezarJuego()
