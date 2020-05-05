@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoización</title>
+</head>
+<body>
+    
+    <script>
+        /* Se va a realizar una funcion que calcule el factorial de un
+         * numero, utilizando el metodo de memoizacion para guardar los
+         * numeros antes ya calculados.
+         * Ejemplo:
+         * !6 = 6 * 5 * 4 * 3 * 2 * 1 = 720
+         * !12 = 12 * 11 * 10 * 9 * 8 * 7 * !6 
+         * Donde podemos observar que si ya hemos calculado el factorial
+         * de 6, para calcular un factor mayor, por ejemplo el de 12,
+         * podemos obtener el factorial de manera normal hasta el 7, y de
+         * utilizar el valor ya calculado del factorial de 6.
+        */
+
+        function factorial(n)
+        {
+            if (!this.cache) // Si no existe nuestra cache
+                this.cache = {} // La creamos como objeto
+
+            // Si ya tenemos el calculo en nuestra cache
+            if (this.cache[n]) // Devolvemos el valor y evitamos
+                return this.cache[n] // calcularlo de nuevo
+
+            if (n === 1) return 1 // Condicion base
+
+
+            // De no existir el calculo en cache, almacenamos
+            // el factorial a realizar en el objeto, asi:
+            this.cache[n] = n * factorial(n-1) // !4 = cache[4]
+            return this.cache[n] // Devolvemos el factorial tomandolo
+            // de nuestra cache
+        }
+
+    </script>
+
+</body>
+</html>

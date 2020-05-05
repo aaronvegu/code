@@ -14,7 +14,7 @@ print(arregloMultiDatos)
 pares = [2,4,5,8,10]
 print("Arreglo incorrecto:")
 print(pares)
-pares[2] = 6;
+pares[2] = 6
 print("Arreglo corregido mediante asginacion por indice:")
 print(pares)
 

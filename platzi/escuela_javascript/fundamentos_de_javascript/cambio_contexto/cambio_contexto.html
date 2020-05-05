@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambios de Contexto</title>
+</head>
+<body>
+    <script>
+        const aaron = { // Objeto Aaron
+            nombre: 'Aaron',
+            apellido: 'Vegu'
+        }
+
+        function saludar()
+        {
+            console.log(`Hola, ${this.nombre}`) // Hacemos referencia a Window
+        }
+
+        //const saludarAAaron = saludar.bind(aaron) // Enlazamos la funcion a aaron
+
+        setTimeout(saludar.bind(aaron), 1000) // Utilizamos la funcion saludar pero
+        // enlazandola al objeto aaron, lo cual hara que this haga referencia al 
+        // atributo nombre de aaron
+
+        /*
+        Usando el método .bind, enviamos la referencia a la función sin ejecutarla, pasando el contexto como parámetro.
+        Usando el método .call, ejecutamos inmediatamente la función con el contexto indicado
+        Usando el método .apply, es similar a .call pero los parámetros adicionales se pasan como un arreglo de valores  
+        */
+
+        // Cambiamos el contexto y se ejecuta la funcion
+        saludar.call(aaron)
+    </script>
+</body>
+</html>

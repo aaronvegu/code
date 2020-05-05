@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursividad</title>
+</head>
+<body>
+    
+    <script>
+        /**
+         * Lo que haremos sera crear una funcion que realice una division
+         * entera de un dividendo y un divisor que recibe como parametros,
+         * realizando tal operacion de manera recursiva, llamando a si misma
+         * mientras los valores del modulo o residuo sean mayores al divisor
+         * =============== =============== =============== ===============
+         * Por ejemplo: 13 / 4
+         * 13 - 4   % =  9
+         * 9 - 4    % =  5
+         * 5 - 4    % =  1
+         * 1 - 4    % = -3 -> Se detiene funcion ya que (!dividendo < divisor)
+         */
+        function divisionEntera(dividendo, divisor)
+        {
+            if (dividendo < divisor) return 0;
+            return 1 + divisionEntera((dividendo - divisor), divisor); 
+        }
+    </script>
+
+</body>
+</html>
