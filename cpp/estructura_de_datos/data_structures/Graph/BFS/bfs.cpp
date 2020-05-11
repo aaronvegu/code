@@ -41,7 +41,7 @@ void Graph::BFS(int s)
     // Creamos un vector de booleanos, inicializados en False
     vector<bool> visited(V);
 
-    // Creamos una Cola para los vertices que seran visitador
+    // Creamos una Cola para los vertices que seran visitados
     // por BFS
     list<int> queue;
 
