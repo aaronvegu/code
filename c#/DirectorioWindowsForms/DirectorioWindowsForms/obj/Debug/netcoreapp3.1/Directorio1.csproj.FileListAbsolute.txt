@@ -1,0 +1,15 @@
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\bin\Debug\netcoreapp3.1\Directorio1.exe
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\bin\Debug\netcoreapp3.1\Directorio1.deps.json
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\bin\Debug\netcoreapp3.1\Directorio1.runtimeconfig.json
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\bin\Debug\netcoreapp3.1\Directorio1.runtimeconfig.dev.json
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\bin\Debug\netcoreapp3.1\Directorio1.dll
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\bin\Debug\netcoreapp3.1\Directorio1.pdb
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\obj\Debug\netcoreapp3.1\Directorio1.csprojAssemblyReference.cache
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\obj\Debug\netcoreapp3.1\Directorio1.Form1.resources
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\obj\Debug\netcoreapp3.1\Directorio1.csproj.GenerateResource.cache
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\obj\Debug\netcoreapp3.1\Directorio1.csproj.CoreCompileInputs.cache
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\obj\Debug\netcoreapp3.1\Directorio1.AssemblyInfoInputs.cache
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\obj\Debug\netcoreapp3.1\Directorio1.AssemblyInfo.cs
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\obj\Debug\netcoreapp3.1\Directorio1.dll
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\obj\Debug\netcoreapp3.1\Directorio1.pdb
+D:\Universidad\Tercer semestre\Programacion Orientada a eventos\Directorio1\Directorio1\obj\Debug\netcoreapp3.1\Directorio1.genruntimeconfig.cache
