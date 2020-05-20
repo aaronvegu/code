@@ -1,9 +1,9 @@
 import java.io.*;
 import java.net.*;
 
-public class ServidorBidir // Clase principal
+public class ServidorBidireccional // Clase principal
 { 
-    
+
     private final int PUERTO = 1234; // Puerto para la conexion
     private final String HOST = "localhost";
     private String mensajeDelServidor; // Entrada de mensajes
@@ -11,7 +11,7 @@ public class ServidorBidir // Clase principal
     private ServerSocket serverSocket; // Socket del servidor
     private Socket clientSocket; // Socket del cliente
 
-    public ServidorBidir() throws IOException 
+    public ServidorBidireccional() throws IOException 
     {   // Constructor de clase
         serverSocket = new ServerSocket(PUERTO); // Creamos socket para el servidor
         clientSocket = new Socket(); // Creamos socket oara el cliente
@@ -43,8 +43,8 @@ public class ServidorBidir // Clase principal
                 {
                     // Mostramos mensaje recibido del cliente
                     System.out.println(mensajeDelServidor);
-                    
-                    
+
+
                     // Obtenemos lectura del teclado
                     salidaDelServidor = keyboard.readLine();
                     // Enviamos mensaje al cliente
@@ -68,11 +68,11 @@ public class ServidorBidir // Clase principal
 
     public static void main(String[] args) throws IOException
     {
-        ServidorBidir sb = null; // Declaramos nuestro servidor en null
+        ServidorBidireccional sb = null; // Declaramos nuestro servidor en null
 
         try {
-            
-            sb = new ServidorBidir(); // Instanciamos nuestro servidor
+
+            sb = new ServidorBidireccional(); // Instanciamos nuestro servidor
 
         } catch (IOException e) {
 
@@ -82,4 +82,4 @@ public class ServidorBidir // Clase principal
         if(sb != null) // De no ser null
             sb.startServer(); // Iniciamos servidor
     }
-}
+} 

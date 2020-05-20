@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.*;
 
-public class ClienteBidir // Clase Principal
+public class ClienteBidireccional // Clase Principal
 {
 
     private final int PUERTO = 1234; // Puerto para la conexion
@@ -10,7 +10,7 @@ public class ClienteBidir // Clase Principal
     private DataOutputStream salidaAlServidor; // Datos de salida al servidor
     private BufferedReader entradaDesdeServidor; // Datos de entrada desde el servidor
 
-    public ClienteBidir() throws IOException
+    public ClienteBidireccional() throws IOException
     {
         clientSocket = new Socket(HOST, PUERTO); // Instanciamos socket para el cliente
         System.out.println("Cliente Inicializado");
@@ -20,7 +20,7 @@ public class ClienteBidir // Clase Principal
     {
         // Para leer la entrada del teclado:
         BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
-        
+
         // String del mensaje que saldra al servidor
         String salida = null;
         // String del mensaje de entrada desde el servidor
@@ -53,7 +53,7 @@ public class ClienteBidir // Clase Principal
             entradaDesdeServidor.close();
             keyboard.close();
             clientSocket.close();
-            
+
         } catch (Exception e) {
 
             System.out.println(e.getMessage());
@@ -63,15 +63,15 @@ public class ClienteBidir // Clase Principal
 
     public static void main(String[] args)
     {
-        ClienteBidir cb = null; // Declaramos nuestro cliente en null
+        ClienteBidireccional cb = null; // Declaramos nuestro cliente en null
 
         try {
-            
-            cb = new ClienteBidir(); // Instanciamos nuestro cliente, que 
+
+            cb = new ClienteBidireccional(); // Instanciamos nuestro cliente, que 
             // intentara realizar la conexion
 
         } catch (IOException e) {
-            
+
             System.out.println("\nError en la conexion, no se pudo conectar con el servidor");
 
         }
@@ -79,4 +79,4 @@ public class ClienteBidir // Clase Principal
             cb.startClient(); // Iniciamos comunicaciones
     }
 
-}
+} 
