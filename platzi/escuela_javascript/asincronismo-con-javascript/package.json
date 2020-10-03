@@ -1,0 +1,24 @@
+{
+  "name": "asincronismo-con-javascript",
+  "version": "1.0.0",
+  "description": "Learning the basics of asynchronism in JavaScript",
+  "main": "source/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback-challenge": "node src/callback/challenge.js",
+    "promise": "node src/promises/index.js",
+    "promise-challenge": "node src/promises/challenge.js",
+    "async": "node src/async/index.js",
+    "async-challenge": "node src/async/challenge.js"
+  },
+  "keywords": [
+    "callback",
+    "promise",
+    "async-await"
+  ],
+  "author": "Aaron Vegu",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

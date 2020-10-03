@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{F2D77A83-82A9-4AE7-9E7E-FCBAF4632C3C}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Directorio1" expanded="True">
+            <Node name="Directorio1" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Persona.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Directorio1 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
